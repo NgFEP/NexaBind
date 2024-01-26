@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: NexaBind
+Version: 1.0.0
+Summary: Python wrapper for NexaBind (a C++ MD package)
+Author: IQB Group
+License: Python Software Foundation License (BSD-like)
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+
+NexaBind is a toolkit for molecular simulation. 
+    
