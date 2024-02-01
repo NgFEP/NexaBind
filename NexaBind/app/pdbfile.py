@@ -8,8 +8,7 @@ pdbfile.py: Used for loading PDB files.
 # back into PDB format for the reasons mentioned above.
 
 from __future__ import print_function, division, absolute_import
-__author__ = "Peter Eastman"
-__version__ = "1.0"
+
 
 import os
 import sys
@@ -70,6 +69,8 @@ class PDBFile(object):
             inputfile = file
             own_handle = False
             if isinstance(file, str):
+                current_dir = os.path.dirname(os.path.abspath(__file__))
+                print(current_dir)    
                 inputfile = open(file)
                 own_handle = True
             pdb = PdbStructure(inputfile, load_all_models=True, extraParticleIdentifier=extraParticleIdentifier)

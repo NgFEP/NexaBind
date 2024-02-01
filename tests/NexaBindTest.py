@@ -1,7 +1,13 @@
+import os
+import sys
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+os.chdir(current_dir)
+
 from NexaBind.app import *
 from NexaBind import *
 from NexaBind.unit import *
-from sys import stdout
+
 
 pdb = PDBFile('input.pdb')
 forcefield = ForceField('amber14-all.xml', 'amber14/tip3pfb.xml')
