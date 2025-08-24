@@ -40,10 +40,6 @@ a simple print of:
 - No Report can be generated at the moment!
 - New updates are coming soon for the NexaBind MD simulation package! Thank you!"
 
-## Authors
-
-Contributors names and contact info
-- [Omid Jahanmahin](https://github.com/ozj1)
 
 ## Version History
 
